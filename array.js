@@ -88,3 +88,9 @@ for(let i=revArray.length;i>0;i--){
 
 // Built in Reverse Method
 console.log(revArray.reverse())
+
+// JS Array Method
+var arr3=[4,5,6,7,8]
+console.log(arr3.join(" "))
+arr3.fill(0)
+console.log(arr3);
