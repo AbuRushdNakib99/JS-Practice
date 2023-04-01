@@ -77,3 +77,14 @@ for(var i=0;i<array.length;i++){
         console.log("Element "+i+":"+array[i][j])
     }
 }
+
+// Reverse an Array
+
+let revArray=[1,2,3,4,5,10,20];
+console.log(revArray)
+for(let i=revArray.length;i>0;i--){
+    console.log(revArray[i]);
+}
+
+// Built in Reverse Method
+console.log(revArray.reverse())
