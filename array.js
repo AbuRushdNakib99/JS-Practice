@@ -46,3 +46,21 @@ console.log(arr);
 // Remove an element using splice method of an array
 arr.splice(3,1,500);
 console.log(arr);
+
+// Search Data
+
+var find=500;
+var isFound=false;
+
+
+for(var i=0;i<arr.length;i++){
+    if(arr[i]==find){
+        console.log("Data Found at Index ",+i);
+        isFound=true;
+        break;
+    }
+}
+
+if(!isFound){
+    console.log("Data Not Found");
+}
