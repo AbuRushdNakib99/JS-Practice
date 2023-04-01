@@ -64,3 +64,16 @@ for(var i=0;i<arr.length;i++){
 if(!isFound){
     console.log("Data Not Found");
 }
+
+// Multidimensional Array
+var array=[
+    [78,71,80,90],
+    [90,56,32,19],
+    [90,30,10,50]
+]
+
+for(var i=0;i<array.length;i++){
+    for(var j=0;j<array[i].length;j++){
+        console.log("Element "+i+":"+array[i][j])
+    }
+}
