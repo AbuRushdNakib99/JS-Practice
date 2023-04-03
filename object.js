@@ -25,12 +25,19 @@ var point2={ //Used Maximum time
     z:15
 }
 
-// console.log(point2.x)
-// console.log(point2.y);
-// console.log(point2.x+point2.z);
+console.log(point2.x)
+console.log(point2.y);
+console.log(point2.x+point2.z);
 
-// console.log(point2['x']+point2['z']); //Array Notation {Use When We Don't Know that which one we should use}
+console.log(point2['x']+point2['z']); //Array Notation {Use When We Don't Know that which one we should use}
 
 // Set Object Properties 
 point2.x=500;
+console.log(point2)
+
+// Remove Object Properties
+point2.x=undefined;
+console.log(point2)
+
+delete point2.x;
 console.log(point2)
